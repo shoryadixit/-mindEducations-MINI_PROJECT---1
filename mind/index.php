@@ -47,7 +47,7 @@ session_start();
 <body class="main-layout">
   <!-- loader  -->
   <div class="loader_bg">
-    <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+    <div class="loader" ><img src="images/load2.gif" alt="#" /></div>
   </div>
   <!-- end loader -->
   <!-- header -->
@@ -74,7 +74,7 @@ session_start();
                     <ul class="menu-area-main">
                       <li class="active"> <a href="./index.php" style="font-weight: 550;">Home</a> </li>
                       <li> <a href="../Course Section/courseindex.php" style="font-weight: 550;"> Courses </a> </li>
-                      <li> <a href="#about" style="font-weight: 550;">About</a> </li>
+                      <li> <a href="./Aboutus/aboutUs.html" style="font-weight: 550;">About</a> </li>
                       <?php
                         if (isset($_SESSION['user'])){
                           echo '<li> <a href="../Profile Page/studentProfile.php">My Profile</a> </li>';
@@ -122,7 +122,6 @@ session_start();
                       <div class="text-bg">
                         <h1>Search your Favorite Course here</h1>
                         <p>TOP NOTCH COURSES FROM TRAINED PROFESSIONALS</p>
-                        <a href="#">Read more</a> <a href="#">get a qoute</a>
                       </div>
                     </div>
                     <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
@@ -169,7 +168,7 @@ session_start();
               experiences, and apply it to their daily lives. They must make what they learn
               part of themselves.”
             </p>
-            <a href="Javascript:void(0)">Read more</a>
+            <a href="./Aboutus/aboutUs.html">Read more</a>
           </div>
         </div>
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
@@ -263,7 +262,7 @@ session_start();
               learning to be specific to their job, quick and have merit, and using an online 
               platform allows users to learn at their own pace and use when needed. It is a win for all."
             </p>
-            <a href="../Project2/index.html">Courses</a>
+            <a href="../Course Section/courseindex.php">Courses</a>
           </div>
         </div>
       </div>
@@ -280,9 +279,9 @@ session_start();
         <div class="col-md-12">
           <div class="titlepage">
             <h2>Learn <strong class="yellow">the Practical way</strong></h2>
-            <span>packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem
-              ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years,
-              sometimes by accident, sometimes on purpose (injected humour and the like).</span>
+            <span>As we know practical are more effecient than theory learning our website course videos and their provided study materials 
+              inslude some practical implementaions regarding courses and in videos, How to theory work in practical way.
+            </span>
           </div>
         </div>
       </div>
@@ -313,9 +312,9 @@ session_start();
 
             <?php  
               if(!isset($_SESSION['is_login'])){
-                echo '<a href="../Login Page 2/index.html">Strat now</a>';
+                echo '<a href="../Login Page 2/index.html"> Strat now </a>';
               } else {
-                echo '<a href="../Course Section/index.html">Courses</a>';
+                echo '<a href="../Course Section/courseindex.php"> Courses </a>';
               }
             ?>
           </div>

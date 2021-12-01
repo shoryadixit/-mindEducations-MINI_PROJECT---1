@@ -40,7 +40,7 @@ if (!isset($_SESSION['user'])){
                 <nav class="main-menu ">
                   <ul class="menu-area-main" style="padding-left: 450px;">
                     <li> <a href="../mind/index.php" style="font-weight: 550; padding-right: 30px;">Home</a></li>
-                    <li> <a href="../Course Section/index.html" style="font-weight: 550; padding-right: 30px;">Courses</a> </li>
+                    <li> <a href="../Course Section/index.php" style="font-weight: 550; padding-right: 30px;">Courses</a> </li>
                     <li> <a href="../Login Page 2/logout.php" style="font-weight: 550; padding-right: 30px;">Logout</a></li>
                   </ul>
                 </nav>

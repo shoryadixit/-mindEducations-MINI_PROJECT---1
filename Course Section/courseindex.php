@@ -4,12 +4,24 @@ session_start();
 
 if(!isset($_SESSION['is_login'])){
   echo"<script>alert('First, try to login or SignUp !!!')</script>";
+  echo"<div style='position: fixed;
+                  z-index: 9999999;
+                  background: #fff;
+                  width: 100%;
+                  height: 100%;'>
+
+      <div style='height: 100%;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;'><img src='../mind/images/load2.gif' style='width: 280px;'/></div>
+    </div>";
   header("Refresh: 0; URL=../mind/index.php"); 
 }
-?>
-
-
-<!DOCTYPE html>
+?><!DOCTYPE html>
 <html lang="en">
 
 <head>
